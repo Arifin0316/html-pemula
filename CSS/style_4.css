@@ -1,0 +1,35 @@
+h2 {
+    text-decoration:none;
+}
+
+a {
+    text-decoration:none;
+    color:black
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.lowercase{
+    text-transform: lowercase;
+}
+.judul_artikel{
+    text-align: center;
+}
+
+p {
+    text-align: justify;
+}
+
+
+.lorem1{
+    line-height: 30px;
+}
+.lorem2{
+    text-indent:40px;
+}

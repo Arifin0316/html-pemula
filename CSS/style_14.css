@@ -1,0 +1,85 @@
+table {
+    margin: 50px auto;
+    border-spacing: 0px;
+    border-collapse: collapse;
+}
+th {
+    background-color: teal;
+    color: aliceblue;
+    border: 1px solid black; 
+    padding: 10px;
+}
+td {
+    padding: 10px;
+    border: 1px solid teal;
+/* border-bottom: 1px solid teal; */
+
+}
+tr:nth-child(even){
+    background-color: bisque;
+}
+
+
+
+
+
+
+
+nav {
+    width: 900px;
+    margin: auto;
+    background-color: #df6262;
+}
+ul {
+    list-style: none;
+    padding: 0%;
+    margin: 0%;
+}
+li {
+    display: inline-block;
+}
+ul li a {
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    display: block;
+}
+ul li ul {
+    background-color:#df6262;
+    display: none;
+    position: absolute;
+    padding: 0;
+}
+ul li:hover ul {
+    display: block;
+}
+ul li ul li {
+    display: block;
+    width: 100%;
+}
+ul li ul li a {
+    padding: 10px;
+    color: aliceblue;
+} 
+ul li ul li a:hover {
+    background-color: aqua;
+    color: black;
+}
+   
+
+.kotak {
+    width: 200px; 
+    height: 100px;
+    background-color: green;
+    margin: 200px auto;
+    transition:1s;
+}
+.kotak:hover {
+    transform: rotate(45deg);
+    /* transform: scale(2); */
+    /* transform: translate(100%, 50px); */
+    /* transform: skew(50deg); */
+    
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kolom</title>
+</head>
+<body>
+    <table border="2" cellspacing="1" cellpadding="10" align="center">
+        <caption>elemen pada tabel html</caption>
+        <tr>
+            <th>ini kolom 1</th>
+            <th>ini kolom 2</th>
+            <th>ini kolom 3</th>
+        </tr>
+        <tr>
+            <td>ini baris 2 kolom 1</td>
+            <td>ini baris 2 kolom 2</td>
+            <td>ini baris 2 kolom 3</td>
+        </tr>
+        <tr>
+            <td>ini baris 3 kolom 1</td>
+            <td>ini baris 3 kolom 2</td>
+            <td>ini baris 3 kolom 3</td>
+        </tr>
+        <!--rules= cols/rows/all/none-->
+        <table rules="none" border="2" cellspacing="1" cellpadding="10" align="center">
+            <caption>elemen pada tabel html</caption>
+            <tr>
+                <th>ini kolom 1</th>
+                <th>ini kolom 2</th>
+                <th>ini kolom 3</th>
+            </tr>
+            <tr>
+                <td>ini baris 2 kolom 1</td>
+                <td>ini baris 2 kolom 2</td>
+                <td>ini baris 2 kolom 3</td>
+            </tr>
+            <tr>
+                <td>ini baris 3 kolom 1</td>
+                <td>ini baris 3 kolom 2</td>
+                <td>ini baris 3 kolom 3</td>
+            </tr>
+            <table border="2" cellspacing="1" cellpadding="10" align="center">
+                <caption>elemen pada tabel html</caption>
+                <tr>
+                    <th>ini kolom 1</th>
+                    <th>ini kolom 2</th>
+                    <th>ini kolom 3</th>
+                </tr>
+                <tr>
+                    <!-- colspan untuk mengabungkan baris  -->
+                    <td colspan="3">ini baris 2 kolom 1</td>
+                    <!-- <td>ini baris 2 kolom 2</td> -->
+                    <!-- <td>ini baris 2 kolom 3</td> -->
+                </tr>
+                <tr>
+                    <!-- rowspan untuk mengabungkan kolom -->
+                    <td rowspan="2">ini baris 3 kolom 1</td>
+                    <td>ini baris 3 kolom 2</td>
+                    <td>ini baris 3 kolom 3</td>
+                </tr>
+                <tr>
+                    <!-- <td>ini baris 3 kolom 1</td> -->
+                    <td>ini baris 3 kolom 2</td>
+                    <td>ini baris 3 kolom 3</td>
+                </tr>
+    </table>
+</body>
+</html>

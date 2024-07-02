@@ -1,0 +1,20 @@
+body {
+    /* background-color: aqua;  */
+    background-image: url(../CSS/gambar/bg3.jpg);
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 1000px;
+    background-attachment: fixed;
+}
+/* background-repeat: untuk mencegah pengulangan gambar */
+.tron {
+    width: 900px;
+    height: 400px;
+    border: 1px solid black;
+    margin: auto;
+    background-image: url(../CSS/gambar/bg2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-attachment: fixed  ;  supaya begron tidak ikut bergerak*/
+
+}

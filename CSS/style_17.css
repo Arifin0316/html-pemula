@@ -1,0 +1,51 @@
+.container {
+    width: 500px;
+    border: 3px solid;
+    margin: 50px auto;
+    display: flex;
+    /* wajip display: flex; untuk megubah item mengarah ke samping atau ke bawa  */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: nowrap;/ nowrap supaya turunke bawa.. supaya item terus bisa di tampung di dalam kotak */
+    /* flex-direction: column-reverse; */
+    /* justify-content:space-between; */
+    /* align-items: center; */
+    /* align-content: center; */
+
+
+}
+.box1,.box2,.box3,.box4{
+    width: 100px;
+    height: 100px;
+    background-color: green;
+    margin: 5px;
+    color: white;
+    font-size: 24px;
+
+ }
+/* .box1 {
+    order: 4;
+}
+.box2{
+    order: 3;
+}
+.box3{
+    order: 2;
+}
+.box4{
+  order untuk menukar posisi item  order: 1;
+} */ 
+/* .box1 {
+    flex:1;
+}
+.box2{
+    flex: 4;
+}
+.box3 {
+   untuk mengatur ukuran item flex: 4;
+}
+.box4 {
+    flex: 1;
+} */
+.box2 {
+    align-self: flex-start;
+}

@@ -1,0 +1,61 @@
+.kotak {
+    width: 300px;
+    height: 70px;
+    background-color: green;
+    margin: 30px;
+    /* animation-name: warna;
+   animation-duration: 5s;
+   
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    animation-direction: reverse; */
+
+    animation: warna 5s linear infinite reverse;
+}
+@keyframes warna {
+    0%{
+        background-color: blue;
+        width: 100px;
+    }
+    30% {
+        background-color: black;
+        width: 300px;
+    }
+    80% {
+        background-color: yellow;
+width: 500px;
+    }
+    100% {
+        background-color: blueviolet;
+        width: 1000px;
+    }
+}
+
+
+ /* .kotak:hover { 
+   margin-left: 400px;
+   transform: rotate(45deg); 
+  */
+ /* .kotak {
+    width: 200px;
+    height: 200px;
+    background-color :blue;
+    margin: 100px;
+    transition: 1s; */
+     /* transition-duration: 1s;
+    transition-property: all;
+    transition-delay: 0.9s;
+    transition-timing-function: ease ease-in-out; */
+
+} */
+
+
+
+  
+}
+.a{
+    width: 300px;
+    left: 70px;
+    background-color: green;
+    margin: 30px;
+}

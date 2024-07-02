@@ -1,0 +1,23 @@
+hr {
+    border: 10px solid blue;
+}
+.lv{
+    width: 200px;
+    height: 200px;
+    border: 5px solid black;
+}
+.kotak{
+    width: 200px;
+    height: 200px;
+    border: 3px solid red;
+    margin: auto;
+ 
+   border-radius:100%;
+    
+}
+article {
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    overflow: auto;
+}

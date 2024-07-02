@@ -1,0 +1,45 @@
+.container {
+    border-width: 400px;
+    border: 3px solid black;
+    margin: auto;
+}
+.kotak1,.kotak2,.kotak3 {
+    width: 300px;
+    background-color: aqua;
+    margin: 5px;
+}
+.kotak1 {
+    padding: 40px;
+    box-sizing: border-box;
+    /* box-sizing: border-box; untuk mempertahankan ukuran box walaupun di tambakan properti lain */
+}
+.kotak2 {
+    border: 3px solid black;
+    padding: 40px;
+}
+a {
+    display: block;
+    margin-top: 5px;
+}
+ul li{
+    display: inline-block;
+    background-color: lawngreen;
+    height: 200px;
+    width: 100px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.container1 {
+    width: 800px;
+    margin: 30px auto;
+}
+img {
+    float: left;
+    margin-right: 10px;
+/* float untuk membuaat tulisan berada di samping gambar */
+
+}
+.clear {
+    clear:left;
+}
+/* clear:left; untuk menghetikan float */
